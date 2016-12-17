@@ -1,0 +1,4 @@
+INFO	?	main	2016-10-17T06:13:48.458Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2016-10-17T06:13:48.653Z	org.javacs.JavaLanguageServer#doLint	Lint [/Users/Hoyeon/Documents/University/DS/Lab/Code/07/Queue_prob.java]
+INFO	?	main	2016-10-17T06:13:48.665Z	org.javacs.JavaLanguageServer#doLint	Lint [/Users/Hoyeon/Documents/University/DS/Lab/Code/07/Run.java]
+INFO	?	main	2016-10-17T06:14:04.262Z	org.javacs.Main#run	Connection closed
