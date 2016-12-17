@@ -22,6 +22,4 @@ int main(void)
 
 	printf("Volume (cubic inches): %d\n", volume);
 	printf("Dimensioanl weight (pounds): %d\n", weight);
-
-	return 0;
 }
