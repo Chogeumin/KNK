@@ -16,7 +16,8 @@ void pop(stack*);
 int top(stack*);
 void print_stack(stack*);
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[])
+{
 	int i;
 	stack* s = init_stack();
 	push(s, newnode(1));
