@@ -66,7 +66,7 @@ void delAt(list* list, int n) {
 
 void print_list(list* list) {
 	node* temp = list->head;
-	for (int i = 0; i < list->size; i++, iter = iter->next)
+	for (int i = 0; i < list->size; i++, temp = temp->next)
 		printf("[%d] ", temp->val);
 	printf("\n");
 }
