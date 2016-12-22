@@ -45,9 +45,8 @@ void appendTo(list* list, node* newnode) {
 		return;
 	}
 	node* iter = list->head;
-	while (iter->next != NULL) {
+	while (iter->next != NULL)
 		iter = iter->next;
-	}
 	iter->next = newnode;
 }
 
@@ -57,9 +56,8 @@ void delAt(list* list, int n) {
 		return;
 	}
 	node* iter = list->head;
-	for (int i = 1; i < n - 1; i++) {
+	for (int i = 1; i < n - 1; i++)
 		iter = iter->next;
-	}
 	node* temp = iter->next->next;
 	free(iter->next);
 	iter->next = temp;
@@ -67,10 +65,8 @@ void delAt(list* list, int n) {
 }
 
 void print_list(list* list) {
-	node* iter = list->head;
-
-	for (int i = 1; i <= list->size; i++, iter = iter->next) {
-		printf("[%d] ", iter->val);
-	}
+	node* temp = list->head;
+	for (int i = 0; i < list->size; i++, iter = iter->next)
+		printf("[%d] ", temp->val);
 	printf("\n");
 }
