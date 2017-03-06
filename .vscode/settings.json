@@ -1,4 +1,5 @@
 {
     "editor.formatOnPaste": true,
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": true
 }
